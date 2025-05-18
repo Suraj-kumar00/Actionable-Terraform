@@ -2,6 +2,8 @@
 
 This Terraform project creates a basic AWS infrastructure including a VPC, subnet, internet gateway, security group, and EC2 instance in the ap-south-1 region.
 
+![Terraform Remote S3 Backend](../Assets/terraform-s3-backend.png)
+
 ## Project Components
 
 - **VPC**: Creates a Virtual Private Cloud with DNS support and hostnames enabled
@@ -45,4 +47,5 @@ terraform destroy
 ## Outputs
 
 After applying the configuration, you can access:
+
 - EC2 instance public IP address via the `ec2_public_ip` output

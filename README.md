@@ -4,7 +4,7 @@ Learning Terraform by making projects
 
 ## Project Structure
 
-- **Project_01**: Basic AWS infrastructure setup with VPC, subnet, EC2 instance, and remote state configuration
+- **Project_01**: Terraform Remote State Backend Using S3 and DynamoDB
 - More projects coming soon...
 
 ## Installation Guide on local machine/server
